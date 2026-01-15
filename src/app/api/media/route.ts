@@ -46,5 +46,3 @@ export async function POST(req: Request) {
 
   return NextResponse.json(data);
 }
-
-export { getMediaKind };
